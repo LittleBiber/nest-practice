@@ -1,0 +1,19 @@
+server:
+  port: 8000
+
+db:
+  type: 'postgres'
+  host: 'localhost'
+  port: 5432
+  username: 'postgres'
+  password: 'seonam1004'
+  database: 'board'
+  synchronize: true
+
+jwt:
+  secret: 'jsonwebtoken'
+  expiresIn: 3600
+
+swagger:
+  username: 'test'
+  password: 'password'
